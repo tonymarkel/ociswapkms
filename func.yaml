@@ -1,0 +1,8 @@
+schema_version: 20180708
+name: ociswapkms
+version: 0.0.57
+runtime: python3.8.5
+build_image: fnproject/python:3.8.5-dev
+run_image: fnproject/python:3.8.5
+entrypoint: /python/bin/fdk /function/func.py handler
+memory: 256
